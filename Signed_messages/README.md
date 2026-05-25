@@ -7,11 +7,11 @@ After creating our account we will have can send messages and also we can verify
 
 So first we can go with the traditional method of reconnaissance. NMAP tool can be used..
 
-Press enter or click to view image in full size
 <img width="840" height="510" alt="1_g48mAOrS2TvSESKjrGxpWg" src="https://github.com/user-attachments/assets/1472e768-1ad6-47a9-ba60-46b82a99b100" />
 Since we are sure that the there is only 2 services and the UPnP is service a networking protocol that allows devices like gaming consoles, smart home gadgets, and computers to automatically configure routers to open specific network ports. So we can try to do directory search and find is there any vulnerable endpoints.
 <img width="846" height="552" alt="1_jddbrg20_B8bLs0nmBumuw" src="https://github.com/user-attachments/assets/acce4a51-9fdb-4d8a-9e68-386aaace4ee2" />
 Here we found a endpoint named (/debug) and it displayed the method that is used to get the digital signature. So by analyzing the method and with the help of AI we can make a exploit script and be executed and get the digital signature of a message that is sent.
+
 So with this logic, we get the digital signature of the admin. In the site we can see a message that was sent by the admin, we can use that message to get the digital signature and get the flag.
 
 The admin message “Welcome to LoveNote! Send encrypted love messages this Valentine’s Day. Your communications are secured with industry-standard RSA-2048 digital signatures.”
